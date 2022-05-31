@@ -11,7 +11,7 @@ import sys
 import traceback
 import threading
 import uuid
-import StringIO
+from io import StringIO
 import zipfile
 import tempfile
 import socket

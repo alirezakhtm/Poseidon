@@ -4,3 +4,6 @@ server/uploads
 *.db
 server/agents
 TODO
+.vscode
+__pycache__
+.bashrc

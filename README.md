@@ -1,6 +1,6 @@
-# Ares
+# Poseidon
 
-Ares is a Python Remote Access Tool.
+Posidon is a Python Remote Access Tool. (Forked from [Ares](https://github.com/sweetsoftware/Ares))
 
 __Warning: Only use this software according to your current legislation. Misuse of this software can raise legal and ethical issues which I don't support nor can be held responsible for.__
 

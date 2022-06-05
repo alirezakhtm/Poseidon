@@ -22,6 +22,9 @@ Takes a screenshot.
 python <command|file>
 Runs a Python command or local file.
 
+pwd
+Get curretn directory
+
 persist
 Installs the agent.
 

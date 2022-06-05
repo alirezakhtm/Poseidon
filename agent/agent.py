@@ -151,6 +151,12 @@ class Agent(object):
         """ Change current directory """
         os.chdir(self.expand_path(directory))
 
+    def pwd(self):
+        """ This method return Current Directory """
+        cwd: str = os.getcwd()
+        self.send_output(cwd)
+
+
     @threaded
     def upload(self, file):
         """ Uploads a local file to the server """
@@ -304,6 +310,8 @@ class Agent(object):
                                 self.send_output('usage: cd </path/to/directory>')
                             else:
                                 self.cd(args[0])
+                        if command == 'pwd':
+                            self.pwd()
                         elif command == 'upload':
                             if not args:
                                 self.send_output('usage: upload <localfile>')

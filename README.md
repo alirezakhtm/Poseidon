@@ -60,7 +60,7 @@ python agent.py
 Build a new agent to a standalone binary:
 
 ```
-./builder.py -p Linux --server http://localhost:8080 -o agent
+python builder.py -p Linux --server http://localhost:8080 -o agent
 ./agent
 ``` 
 

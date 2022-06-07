@@ -23,7 +23,7 @@ Initialize the database:
 
 ```
 cd server
-./ares.py initdb
+python ares.py initdb
 ```
 
 In order to compile Windows agents on Linux, setup wine (optional):
@@ -37,7 +37,7 @@ In order to compile Windows agents on Linux, setup wine (optional):
 Run with the builtin (debug) server:
 
 ```
-./ares.py runserver -h 0.0.0.0 -p 8080 --threaded
+python ares.py runserver -h 0.0.0.0 -p 8080 --threaded
 ```
 
 Or run using gunicorn:
@@ -54,7 +54,7 @@ Run the Python agent (update config.py to suit your needs):
 
 ```
 cd agent
-./agent.py
+python agent.py
 ```
 
 Build a new agent to a standalone binary:
